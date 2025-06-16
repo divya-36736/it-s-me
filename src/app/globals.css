@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+*{
+  font-family: Outfit;
+}
+.vertical-timeline::before {
+  background: #1e293b !important;
+}
