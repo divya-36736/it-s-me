@@ -14,6 +14,7 @@ const OvoFont = Ovo({
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "",
+  viewport: 'width=device-width, initial-scale=1.0',
 };
 
 export default function RootLayout({
