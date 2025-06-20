@@ -33,12 +33,13 @@ function Navbar() {
   <a href="/">
     <img
       src="/DK.png"
-      className="w-8 h-8 sm:w-10 sm:h-10 rounded-full cursor-pointer"
+      className="w-10 h-10 rounded-full cursor-pointer"
       alt="Logo"
     />
   </a>
-  <h2 className="text-lg sm:text-2xl font-Ovo">DIVYA KUMARI</h2>
+  <h2 className="text-xl font-Ovo">DIVYA KUMARI</h2>
 </div>
+
 
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3

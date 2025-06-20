@@ -9,6 +9,7 @@ import Footer from "./componets/Footer";
 export default function Home() {
   return (
     <>
+    
     <Navbar />
     <Header />
     <About/>
@@ -16,6 +17,7 @@ export default function Home() {
     <Work/>
     <Contact />
     <Footer/>
+    
     </>
     
   );
