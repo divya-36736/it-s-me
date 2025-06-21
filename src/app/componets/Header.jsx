@@ -9,9 +9,6 @@ function Header() {
    
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center
     gap-4'>
-      <Spotlight
-        className='-top-40 left-0 md:left-60 md:-top-20'
-        fill='white'/>
       <motion.div
       initial = {{scale: 0}}
       whileInView={{scale: 1}}

@@ -33,13 +33,12 @@ function Navbar() {
   <a href="/">
     <img
       src="/DK.png"
-      className="w-10 h-10 rounded-full cursor-pointer"
+      className="w-8 h-8 sm:w-10 sm:h-10 rounded-full cursor-pointer"
       alt="Logo"
     />
   </a>
-  <h2 className="text-xl font-Ovo">DIVYA KUMARI</h2>
+  <h2 className="text-lg sm:text-2xl font-Ovo">DIVYA KUMARI</h2>
 </div>
-
 
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3
@@ -63,7 +62,7 @@ function Navbar() {
 
         {/*---mobile menu ---*/}
         <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64
-        top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500'>
+        top-0 bottom-0 w-40 z-50 h-screen bg-rose-50 transition duration-500'>
 
           <div className='absolute right-6 top-6' onClick={closeMenu}>
             <img src="/close.png" alt="close" className='w-5 cursor-pointer'/>
