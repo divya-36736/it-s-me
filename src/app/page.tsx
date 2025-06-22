@@ -8,7 +8,7 @@ import Contact from "./componets/Contact";
 import Footer from "./componets/Footer";
 export default function Home() {
   return (
-    <>
+    <div className="w-full overflow-x-hidden">
     <Navbar />
     <Header />
     <About/>
@@ -16,6 +16,6 @@ export default function Home() {
     <Work/>
     <Contact />
     <Footer/>
-    </>
+    </div>
   );
 }
